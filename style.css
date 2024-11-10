@@ -1,5 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+
 }
 header {
     background-color: #c7deff;
@@ -22,4 +25,8 @@ nav ul li a {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+}
+.img-container {
+    float: left;
+    margin: 10px;
 }
