@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - About</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        img {
-            width: 400px;
-            height: 600px;
+        #para1 {
+            font-weight: bold;
         }
     </style>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -23,15 +22,28 @@
             </ul>
         </nav>
     </header>
-    <img src="headshot.jpeg" alt="headshot">
-    <h2>About Me</h2>
-    <p>My name is Anika Balakrishnan. I am a junior at Michigan State University and I am majoring in Computer Science and minoring in Graphic Design.</p>
-    <p>some of my hobbies are:</p>
-    <ul>
-        <li>drawing</li>
-        <li>music</li>
-        <li>video games</li>
-        <li>crochet</li>
-    </ul>
+
+    <div class="img-container"> 
+        <div class="headshot-img">
+            <img src="headshot.jpeg" alt="headshot">
+        </div>
+    </div> 
+    
+    <div class="about">
+        <h2>About Me</h2>
+        <p id="para1">
+            My name is Anika Balakrishnan. I am a junior at Michigan State University and I am majoring in Computer Science and minoring in Graphic Design.
+        </p>
+        <p>
+            Some of my hobbies are:
+        </p>
+        <ul>
+            <li>drawing</li>
+            <li>music</li>
+            <li>video games</li>
+            <li>crochet</li>
+        </ul>
+    </div>
+    
 </body>
 </html>

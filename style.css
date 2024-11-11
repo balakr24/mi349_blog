@@ -4,29 +4,77 @@ body {
     font-size: 17px;
 
 }
+
 header {
+    position: sticky;
+    top: 0;
     background-color: #c7deff;
     padding: 10px 0;
     text-align: center;
 }
+
 header h1 {
     margin: 0;
     padding: 10px;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin: 0 15px;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #000;
     font-weight: bold;
 }
+
+section {
+    display: flex;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+ul {
+    list-style-type: circle;
+}
+
 .img-container {
     float: left;
+}
+
+.lunchly-img {
+    img {
+        width: 400px;
+        height: 240px;
+    }
+}
+
+.ksi-img {
+    img {
+        width: 400px;
+        height: 240px;
+    }
+}
+
+.headshot-img {
+    img {
+        width: 400px;
+        height: 600px;
+        padding: 20px;
+    } 
+}
+
+.post {
+    background-color: rgb(231, 255, 245);
     margin: 10px;
 }
+
+
